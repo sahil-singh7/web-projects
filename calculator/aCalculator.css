@@ -1,0 +1,86 @@
+/* Page styling */
+body {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Title */
+h3 {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    color: #333;
+}
+
+/* Calculator container */
+.calculator {
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Display box */
+#inputBox {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: #000;
+    color: #0f0;
+}
+
+/* Buttons layout */
+.calculator div {
+    display: flex;
+}
+
+/* All buttons */
+button {
+    flex: 1;
+    margin: 5px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+    transition: 0.2s;
+}
+
+/* Hover effect */
+button:hover {
+    background: #666;
+}
+
+/* Operator buttons */
+.operator {
+    background: #ff9500;
+    color: white;
+}
+
+/* Special buttons */
+.ac {
+    background: #e63946;
+}
+
+.del {
+    background: #457b9d;
+}
+
+/* Equals button */
+button:last-child {
+    background: #2ecc71;
+}
